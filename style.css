@@ -1,0 +1,103 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+
+.resume {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #0078d7;
+}
+
+.contact {
+  font-size: 14px;
+  color: #555;
+}
+
+h2 {
+  border-bottom: 2px solid #0078d7;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.job {
+  margin-bottom: 15px;
+}
+
+.job h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #444;
+}
+
+.job .date {
+  font-size: 13px;
+  color: #777;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #eef6fb;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+button {
+  background: #0078d7;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #005a9e;
+}
+
+/* Dark mode */
+.dark-mode {
+  background: #121212;
+  color: #f4f4f9;
+}
+
+.dark-mode .resume {
+  background: #1e1e1e;
+  color: #f4f4f9;
+}
+
+.dark-mode h2 {
+  border-color: #f4f4f9;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .resume {
+    padding: 15px;
+  }
+  .header h1 {
+    font-size: 28px;
+  }
+}
